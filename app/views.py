@@ -57,3 +57,7 @@ def task_create_wav():
     file_path = os.path.join(os.getcwd(), './app/static/task-create.wav')
     return send_file(file_path, mimetype='audio/wav')
 
+@app.route('/speech/v1/assist/create/need', methods=['GET'])
+def need_create_wav():
+    file_path = os.path.join(os.getcwd(), './app/static/need-create.wav')
+    return send_file(file_path, mimetype='audio/wav')

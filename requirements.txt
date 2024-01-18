@@ -1,2 +1,5 @@
+# version 0.1.1-proto
+# author David L Whitehurst
+
 flask==3.0.0
 gunicorn==20.1.0
